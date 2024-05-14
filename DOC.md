@@ -26,7 +26,7 @@ Mais c'est possible en NMS ou avec [NBT API](https://www.spigotmc.org/resources/
 Quelques exemples des alertes en questions sur Pactify:
 
 ```
-![Texte alternatif]([lien_vers_ton_image](https://i.ibb.co/fpTzFmM/image.png))
+  <img  src="[https://img.shields.io/github/issues-closed/Smug246/Luna-Grabber?color=6d00c1&logoColor=6d00c1](https://i.ibb.co/fpTzFmM/image.png)">
 ```
 
 ## PLSP Protocol
