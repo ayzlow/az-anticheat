@@ -25,7 +25,7 @@ Mais c'est possible en NMS ou avec [NBT API](https://www.spigotmc.org/resources/
 
 Quelques exemples des alertes en questions sur Pactify:
 
-[  <img  src="[(https://i.ibb.co/fpTzFmM/image.png)">](https://i.ibb.co/fpTzFmM/image.png)
+[  <img  src="[([https://i.ibb.co/fpTzFmM/image.png](https://ibb.co/DCjHW34)">]
 
 ## PLSP Protocol
 
