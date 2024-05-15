@@ -2,21 +2,29 @@
 
 ## Informations sur le Client
 
-L'anticheat côté client fonctionne actu
+Concernant les alertes sur le côté client il faut savoir que les staffs peuvent reçevoir:
+
 
 ## Informations sur le Serveur
 
 Concernant le serveur, le plugin utilisé comme anticheat est `OldNCP` (Ancien NoCheatPlus).
 
 Nathan818 et le staff n'ont pas souhaiter mettre un plugin d'anticheat plus avancé pour plusieurs raisons, premièrement pour ne pas faire énormement de
-logs, de falses positives et aussi pour ne pas surcharger en protection sachant que une protection launcher est beaucoup plus avancée est plus fiable.
+logs, de falses positives et aussi pour ne pas être surcharger en protection sachant qu'une protection launcher est beaucoup plus fiable est avancée.
 
 ## Types d'alertes
 
-- `Memory Hacking` Quand un joueur modifie une ou plusieurs valeurs dans la mémoire de son jeu.
-- `Injection` Quand un joueur injecte un fichier "dll" dans son jeu.
+- `MemoryHacking` Quand un joueur modifie une ou plusieurs valeurs détectés dans la mémoire de son jeu.
+- `Injections` Quand un joueur injecte un fichier `dll` dans son jeu.
+
+## Types de Protections
+
+- `MemoryCorruption` Un code permettant de faire simuler un crash du launcher une fois des valeurs modifiées.
+- `MemoryFields` Ré-attribut des valeurs sous d'autres fields pour diminuer la facilité à avoir ces valeurs.
+- `ThreadSleep` Un code ou le nom du processus a été référencé afin de le faire crash si il est lancé en même tant que `AZ-Launcher`.
+- `Loop` Utilisation d'une boucle pour réinitialiser la valeur par défaut, code utilisé pour le `timer`.
 
 
 Quelques exemples des alertes en questions sur Pactify:
 
-[  <img  src="[([https://i.ibb.co/fpTzFmM/image.png](https://ibb.co/DCjHW34)]">]
+![PactifyAlert](https://i.ibb.co/fpTzFmM/image.png)
