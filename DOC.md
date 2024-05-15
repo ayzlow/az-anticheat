@@ -2,7 +2,7 @@
 
 ## Informations sur le Client
 
-Concernant les alertes sur le côté client il faut savoir que les staffs peuvent reçevoir:
+Concernant l'anticheat côté client
 
 
 ## Informations sur le Serveur
