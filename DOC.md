@@ -2,8 +2,11 @@
 
 ## Informations sur le Client
 
-Concernant l'anticheat côté client
+Concernant l'anticheat côté client vous êtes directement détecté à la modification d'une valeur détectée et un message sera envoyé directement
+sur le serveur aux administrateurs même si vous trichez ailleurs, mais en revanche vous ne serez pas banni.
 
+Il faut également savoir que si vous vous connectez à Pactify après avoir triché ou même avant sans avoir redémarrer votre launcher vous serez
+banni car sa enverra quand même un message sur le serveur comme si vous y étiez connecté.
 
 ## Informations sur le Serveur
 
@@ -23,8 +26,3 @@ logs, de falses positives et aussi pour ne pas être surcharger en protection sa
 - `MemoryFields` Ré-attribut des valeurs sous d'autres fields pour diminuer la facilité à avoir ces valeurs.
 - `ThreadSleep` Un code ou le nom du processus a été référencé afin de le faire crash si il est lancé en même tant que `AZ-Launcher`.
 - `Loop` Utilisation d'une boucle pour réinitialiser la valeur par défaut, code utilisé pour le `timer`.
-
-
-Quelques exemples des alertes en questions sur Pactify:
-
-![PactifyAlert](https://i.ibb.co/fpTzFmM/image.png)
