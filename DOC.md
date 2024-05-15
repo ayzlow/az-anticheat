@@ -2,10 +2,7 @@
 
 ## Informations sur le Client
 
-Concernant les alertes sur le côté client il faut savoir que les staffs peuvent reçevoir:
-
-`MemoryHacking` Quand un joueur modifie une ou plusieurs valeurs dans la mémoire de son jeu.
-`Injection` Quand un joueur injecte un fichier "dll" dans son jeu.
+L'anticheat côté client fonctionne actu
 
 ## Informations sur le Serveur
 
@@ -16,9 +13,8 @@ logs, de falses positives et aussi pour ne pas surcharger en protection sachant 
 
 ## Types d'alertes
 
-Les propriétés spéciales des ItemStacks sont stockées dans les NBT tags.
-Il n'y a pas d'API Bukkit pour les manipuler.
-Mais c'est possible en NMS ou avec [NBT API](https://www.spigotmc.org/resources/nbt-api.7939/).
+- `Memory Hacking` Quand un joueur modifie une ou plusieurs valeurs dans la mémoire de son jeu.
+- `Injection` Quand un joueur injecte un fichier "dll" dans son jeu.
 
 
 Quelques exemples des alertes en questions sur Pactify:
