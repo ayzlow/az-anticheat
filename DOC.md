@@ -22,7 +22,7 @@ logs, de falses positives et aussi pour ne pas être surcharger en protection sa
 
 ## Types de Protections
 
-- `MemoryCorruption` Un code permettant de faire simuler un crash du launcher une fois des valeurs modifiées.
+- `MemoryCorruption` Un code permettant de simuler un crash côté client une fois des valeurs modifiées.
 - `MemoryFields` Ré-attribut des valeurs sous d'autres fields pour diminuer la facilité à avoir ces valeurs.
 - `ThreadSleep` Un code ou le nom du processus a été référencé afin de le faire crash si il est lancé en même tant que `AZ-Launcher`.
 - `Loop` Utilisation d'une boucle pour réinitialiser la valeur par défaut, code utilisé pour le `timer`.
