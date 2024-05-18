@@ -17,7 +17,7 @@ logs, de falses positives et aussi pour ne pas être surcharger en protection sa
 
 ## Types d'alertes
 
-- `MemoryHacking` Quand un joueur modifie une ou plusieurs valeurs détectés dans la mémoire de son jeu.
+- `MemoryHacking` Quand un joueur modifie une ou plusieurs constances détectées dans la mémoire de son jeu.
 - `Injections` Quand un joueur injecte un fichier `dll` dans son jeu.
 
 ## Types de Protections
